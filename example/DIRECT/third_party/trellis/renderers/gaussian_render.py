@@ -146,7 +146,7 @@ def alpha_render(viewpoint_camera, pc : Gaussian, pipe, bg_color : torch.Tensor,
     
     Background tensor (bg_color) must be on GPU!
     """
-    from plus_diff_gaussian_rasterization import GaussianRasterizationSettings, GaussianRasterizer
+    from alpha_camera_diff_gaussian_rasterization import GaussianRasterizationSettings, GaussianRasterizer
     
     # Create zero tensor. We will use it to make pytorch return gradients of the 2D (screen-space) means
     screenspace_points = torch.zeros_like(pc.get_xyz, dtype=pc.get_xyz.dtype, requires_grad=True, device="cuda") + 0
