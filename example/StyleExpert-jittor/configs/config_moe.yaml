@@ -1,0 +1,13 @@
+# MoE inference config
+validation_prompt: "Generate an image using the object from IMG1 in the style of IMG2"
+style_offset: True
+moe_config:
+  train_modules_csv: "configs/lora_modules.csv"
+  sty_encoder_pretrained_path: "weights/sty_encoder.safetensors"
+  cond_dim: 3072
+  num_experts: 16
+  moe_rank: 8
+  top_k: 2
+  style_token_config:
+    downsample: 1
+  moe_layers_pretrained_path: "weights/lora.safetensors"

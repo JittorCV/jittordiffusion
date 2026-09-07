@@ -1,0 +1,13 @@
+# Jittor and JTorch are installed by install.py; do not install native PyTorch.
+diffusers==0.35.1
+transformers==4.53.1
+safetensors==0.6.2
+einops==0.8.1
+numpy==1.26.4
+pandas==2.2.3
+Pillow==11.3.0
+accelerate==1.10.1
+huggingface-hub==0.35.0
+tokenizers==0.21.4
+sentencepiece==0.2.1
+gradio==5.49.1

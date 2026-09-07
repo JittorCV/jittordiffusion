@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "torch"
+version = "2.0.0"
+description = "Metadata-only torch distribution for the JTorch compatibility package"
+requires-python = ">=3.8"
+
+[tool.setuptools]
+py-modules = []
+
