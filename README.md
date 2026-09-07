@@ -63,3 +63,4 @@ The projects we currently support in the Jittor version:
 - [StoryDiffusion](https://github.com/HVision-NKU/StoryDiffusion) <img src="https://github.com/HVision-NKU/StoryDiffusion/assets/49511209/f79da6b7-0b3b-4dd7-8dd0-ba0b15306fe6" height=25>: Consistent Self-Attention for Long-Range Image and Video Generation 
 - [1Prompt1Story](https://github.com/byliutao/1Prompt1Story) : Free-Lunch Consistent Text-to-Image Generation Using a Single Prompt
 - [DIRECT](https://github.com/Gong1130/DIRECT) <img src="./example/DIRECT/assets/direct_logo1.png" height=25>: Direct 3D-Aware Object Insertion via Decomposed Visual Proxies
+- [StyleExpert](https://github.com/HVision-NKU/StyleExpert): Mixture of Style Experts for Diverse Image Stylization
